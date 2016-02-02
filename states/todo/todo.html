@@ -1,0 +1,25 @@
+<div class="container" > 
+	<div class="row" id="header">	
+		<div class="col-sm-2 col-md-2"></div>	
+		<div id="form" class="col-sm-8" height="auto">
+			<div>
+				<h1><strong>SIMPLE TODO LISTS</strong></h1>
+			</div>
+			<form>	
+				<div>
+					<todo-list data="list" ng-repeat="list in listAllTodoLists()"></todo-list>
+				</div>
+				<div >								
+					<h4>
+						<strong>								
+							<button type="submit" id="todo-btn" ng-click="addNewTodoList()" >
+								<span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Add TODO List
+							</button>						
+						</strong>
+					</h4>						
+				</div>
+			</form>
+		</div>
+		<div class="col-sm-2 col-md-2"></div>	
+	</div>
+</div>
