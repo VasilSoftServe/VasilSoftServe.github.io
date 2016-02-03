@@ -4,6 +4,10 @@
 	border-radius:9px;
 }
 
+.panel-heading{
+	padding: 0px 15px;
+}
+
 .glyphicon-list-alt{
 	font-size: 22px;
 }
@@ -12,18 +16,23 @@
 	display:none;
 }
 
+.show-row h3{
+	margin-top: 13px;
+}
+
 #text {
 	padding: 0px;
 }
 
 .show-row:hover button {
 	display:inline;	
-}
-.table:hover {
-	background-color: rgba(241, 233, 131, 0.4);
-	border-bottom: 6px;	
+	height: 17px;
 }
 
+.table:hover {
+	background-color: rgba(241, 233, 131, 0.4);
+	border-bottom: 0px;	
+}
 
 .strike{
 	text-decoration: line-through;
@@ -51,8 +60,7 @@
 
 #add-item{
 	margin:0px 0px 0px -3px;
-	padding:5px px 5px 0px;
-	/*border-radius: 8px; */
+	padding:5px 14px 5px 0px;
 	border-bottom-right-radius: 8px;
 	border-top-right-radius: 8px; 
 
@@ -64,6 +72,7 @@
     background-repeat:no-repeat;
     border: none;
     overflow: hidden;
+    float: left;
 }
 
 /*List item*/
@@ -92,3 +101,6 @@ input[type="checkbox"]{
 	border-right-color: rgba(174, 162, 162, 0.4);
 }
 
+#input-border h3{
+	margin: 0px;
+}
